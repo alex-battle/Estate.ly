@@ -77,9 +77,7 @@ https://whimsical.com/V2Eh2wf5noksCVP6UwV6TG
 
 #### Component Hierarchy
 
-> Use this section to show your React components and the data architecture of your app.
-
-![Dummy Link](url)
+![image](https://media.git.generalassemb.ly/user/25137/files/a7ee2280-5f08-11ea-858d-a7e62401241f)
 
 #### Component Breakdown
 
