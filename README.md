@@ -92,16 +92,17 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 |    Header    |   n   | _The Header will contain Navigation_               |
 |  Navigation  |   n   | _The navigation will provide a links to each page(Luxury Properties, Search Properties, Rental, Sales, Staff, Open House, About us)_       |
 |   Main    |   y   | _The main component will hold all my Routes and dependencies as well as pass props_      |
-| For Rent |   n   | _The For Rent Component will pass props to the Rent Results page as well as render a list of properties for rent_                 |
+| For Rent |   y   | _The For Rent Component will pass props to the Rent Results page as well as render a list of properties for rent_                 |
 |    Rent Results    |   n   | _Render specific info about each property for Rent_               |
-| For Sale | n | _ The For Sale Component will pass props to the Sale Results page as well as render a list of properties for sale_	|
+| For Sale | y | _ The For Sale Component will pass props to the Sale Results page as well as render a list of properties for sale_	|
 |    Sale Results    |   n   | _Render specific info about each property for sale_               |
-|    Search Page    |   n   | _Input search parameters to make External API Call to pass props down in order to render All properties available_               |
-|    House Results    |   n   | _House results render a list of houses for sale and pass props down to search results component_               |
+|    Search Page    |   y   | _Input search parameters to make External API Call to pass props down in order to render All properties available_               |
+|    House Results    |   y   | _House results render a list of houses for sale and pass props down to search results component_               |
 |    Search Results    |   n   | _Render specific info about each property from API source_               |
-|    About Us     |   n   | _A little data about the company and origins _               |
-|    Contact    |   n   | _Forms to input  contact information and phone number/email _               |
-|    Staff    |   n   | _Render Staff photos and names and pass info to Agent info component_               |
+|    About Us     |   n   | _A little data about the company and origins_               |
+|    Contact    |   n   | _Forms to input  contact information and phone number/email_               |
+|    Staff    |   y   | _Render Staff photos and names and pass info to Agent info component_               |
+|    Agent Info    |   n   | _Info card for each agent_               |
 |    Footer    |   n   | _The footer will show contact info and dummy links._ |
 
 <br>
