@@ -73,7 +73,7 @@ DESKTOP WIREFRAME
 https://www.figma.com/file/bEExsFE3oxVAMyDPyAD0kK/Estate.ly?node-id=5%3A3
 
 MOBILE WIREFRAME
-https://whimsical.com/V2Eh2wf5noksCVP6UwV6TG
+![image](https://media.git.generalassemb.ly/user/25137/files/1d59f300-5f09-11ea-9c75-e0e4089573fc)
 
 #### Component Hierarchy
 
