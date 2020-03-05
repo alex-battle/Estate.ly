@@ -69,13 +69,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
+DESKTOP WIREFRAME
 https://www.figma.com/file/bEExsFE3oxVAMyDPyAD0kK/Estate.ly?node-id=5%3A3
 
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
+MOBILE WIREFRAME
+https://whimsical.com/V2Eh2wf5noksCVP6UwV6TG
 
 #### Component Hierarchy
 
