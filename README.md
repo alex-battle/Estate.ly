@@ -89,11 +89,20 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 |  Component   | State | Description                                                      |
 | :----------: | :---: | :--------------------------------------------------------------- |
-|    Header    |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   y   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card |   n   | _The cards will render the post info via props._                 |
-|    Footer    |   n   | _The footer will show info about me and a link to my portfolio._ |
+|    Header    |   n   | _The Header will contain Navigation_               |
+|  Navigation  |   n   | _The navigation will provide a links to each page(Luxury Properties, Search Properties, Rental, Sales, Staff, Open House, About us)_       |
+|   Main    |   y   | _The main component will hold all my Routes and dependencies as well as pass props_      |
+| For Rent |   n   | _The For Rent Component will pass props to the Rent Results page as well as render a list of properties for rent_                 |
+|    Rent Results    |   n   | _Render specific info about each property for Rent_               |
+| For Sale | n | _ The For Sale Component will pass props to the Sale Results page as well as render a list of properties for sale_	|
+|    Sale Results    |   n   | _Render specific info about each property for sale_               |
+|    Search Page    |   n   | _Input search parameters to make External API Call to pass props down in order to render All properties available_               |
+|    House Results    |   n   | _House results render a list of houses for sale and pass props down to search results component_               |
+|    Search Results    |   n   | _Render specific info about each property from API source_               |
+|    About Us     |   n   | _A little data about the company and origins _               |
+|    Contact    |   n   | _Forms to input  contact information and phone number/email _               |
+|    Staff    |   n   | _Render Staff photos and names and pass info to Agent info component_               |
+|    Footer    |   n   | _The footer will show contact info and dummy links._ |
 
 <br>
 
