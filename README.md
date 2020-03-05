@@ -71,14 +71,17 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 DESKTOP WIREFRAME
 ![image](https://media.git.generalassemb.ly/user/25137/files/e7693e80-5f09-11ea-85e2-e800eb913988)
+https://www.figma.com/file/bEExsFE3oxVAMyDPyAD0kK/Estate.ly?node-id=0%3A1
 
 
 MOBILE WIREFRAME
 ![image](https://media.git.generalassemb.ly/user/25137/files/1d59f300-5f09-11ea-9c75-e0e4089573fc)
+https://whimsical.com/V2Eh2wf5noksCVP6UwV6TG
 
 #### Component Hierarchy
 
 ![image](https://media.git.generalassemb.ly/user/25137/files/a7ee2280-5f08-11ea-858d-a7e62401241f)
+https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 #### Component Breakdown
 
