@@ -3,9 +3,6 @@ Luxury Real Estate Website to view, upload, and search properties
 ![3b0f623a-d6ef-4bab-b626-8a5e422f1ed5_200x200](https://media.git.generalassemb.ly/user/25137/files/f72a5800-5ef4-11ea-8e43-56c5ad26a2d9)
 - [Full Stack Project](#Full-Stack-Project)
   - [Overview](#Overview)
-    - [Team Members](#Team-Members)
-    - [Team Expectations](#Team-Expectations)
-    - [Permissions](#Permissions)
   - [MVP](#MVP)
     - [MVP Goals](#MVP-Goals)
     - [MVP Libraries](#MVP-Libraries)
@@ -92,7 +89,7 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 |   Main    |   y   | _The main component will hold all my Routes and dependencies as well as pass props_      |
 | For Rent |   y   | _The For Rent Component will pass props to the Rent Results page as well as render a list of properties for rent_                 |
 |    Rent Results    |   n   | _Render specific info about each property for Rent_               |
-| For Sale | y | _ The For Sale Component will pass props to the Sale Results page as well as render a list of properties for sale_	|
+| For Sale | y | _The For Sale Component will pass props to the Sale Results page as well as render a list of properties for sale_	|
 |    Sale Results    |   n   | _Render specific info about each property for sale_               |
 |    Search Page    |   y   | _Input search parameters to make External API Call to pass props down in order to render All properties available_               |
 |    House Results    |   y   | _House results render a list of houses for sale and pass props down to search results component_               |
@@ -133,10 +130,7 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 ### Timeframes
 
-> Use this section to estimate the time necessary to build out the various sections of your project. You may include an additional priority matrix, if you desire.
-
 ![image](https://media.git.generalassemb.ly/user/25137/files/c0fcd080-5f14-11ea-8d77-ffa83c31743b)
-
 
 | Task                | Priority | Estimated Time | Actual Time |
 | ------------------- | :------: | :------------: | :---------: |
@@ -152,7 +146,7 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 | Styling |    H     |     18 hrs      |     -- hrs     |
 | Create CRUD Actions |    H     |     3 hrs      |     -- hrs     |
 | User Authentication | H | 5 hrs | --hrs |
-| TOTAL               |          |     6 hrs      |     -- hrs     |
+| TOTAL               |          |     53 hrs      |     -- hrs     |
 
 <br>
 
