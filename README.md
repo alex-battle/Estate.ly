@@ -15,7 +15,6 @@ Luxury Real Estate Website to view, upload, and search properties
       - [ERD Model](#ERD-Model)
       - [Data Heirarchy](#Data-Heirarchy)
   - [Post-MVP](#Post-MVP)
-  - [Project Delivery](#Project-Delivery)
   - [Code Showcase](#Code-Showcase)
   - [Code Issues & Resolutions](#Code-Issues--Resolutions)
 
