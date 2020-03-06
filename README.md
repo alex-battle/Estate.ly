@@ -131,9 +131,6 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 ***
 
 ## Planning
-
-> You've got a little over a week to reach your Minimum Viable Product. Use these sections to plan out your approach.
-
 <br>
 
 ### Timeframes
