@@ -29,19 +29,16 @@ Digital assets used with full licensing and permission from [Death to Stock Phot
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+> Estate.ly is a real estate app allowing users to input, search, and view properties. The goals of this project is to mimic the workflow of local luxury real estate brokerage websites. Features included in this project allow users to input properties and property info into the backend database powered by Ruby based on their status, whether they are for sale or for rent, and category in which the Estate.ly firm has a "contract" on. Another feature included in this application is the ability to search from an external api powered by Zillow to list real time properties for sale. A challenge I see myself facing is the authentication process of creating log-in for the admin user controlling this. Another challenge I see myself facing is tackling the level of CSS that I envision for the app. The last challenge I see myself facing is dealing with Formik because this would be a new feature and I do not truly see it as a challenge, but just because it is new, I do not know what to expect. And this goes for any additional libraries that I find along the way that I might see fit for this project. Post-MVP goals would be to add maps to each of the properties and base them off of the property location when people both search the properties and when they look at the actual property info. Categorizing properties by whether they are for rent or for sale are also post MVP goals. 
 
 <br>
 
 ### MVP Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- _Search properties and rendering info about each property_
+- _User authentication_
+- _Full CRUD posting, deleting and updating property info_
+- _CSS_
 
 <br>
 
@@ -55,6 +52,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 |  Ruby on Rails  | _Build back end of application._ |
 |     Faker      | _Provide fake data to fill in for Agent Info/addresses/etc._ |
 |     Formik      | _Create and handle form state and data_ |
+| Api | _https://www.zillow.com/howto/api/GetSearchResults.htm_ |
 
 <br>
 
@@ -150,16 +148,16 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 |  Day   | Deliverables                              |
 | ------ | ----------------------------------------- |
-|Mar 4th | project proposal worksheet / psuedocoding |
-|Mar 5th | project pitch / build out endpoints       |
+|Mar 4th | Project proposal worksheet / psuedocoding |
+|Mar 5th | Project pitch / build out endpoints       |
 |Mar 6th | Pitch Approval/Start low priority front end tasks     |
 |Mar 7th | Build Skeletons/Backend                   |
 |Mar 8th | Get all data rendering                    |
-|Mar 9th | impliment user auth / begin styling       |
+|Mar 9th | Implement user auth / begin styling       |
 |Mar 10th| Finish styling/ MVP                       |
-|Mar 11th| post-MVP                                  |
-|Mar 12th| polishing                                 |
-|Mar 13th| final presentations                       |
+|Mar 11th| Post-MVP                                  |
+|Mar 12th| Polishing                                 |
+|Mar 13th| Final Presentations                       |
 
 <br>
 
@@ -167,7 +165,12 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+> 
+Have a for rent and for sale section to render a list and specific info
+Have a favorites section so visitors can save the properties that they like
+When a property is rented/sold switch to unavailable
+Agents page and add agent profile 
+Maps pinned to house location
 
 <br>
 
