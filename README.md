@@ -100,20 +100,34 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model.
+![image](https://media.git.generalassemb.ly/user/25137/files/627a3580-5f9a-11ea-9839-563271e9c9d7)
 
 #### Endpoints
 
-> Use this section to list a selection of your intended endpoints and their uses. Please list any and all custom-created endpoints.
-
 - GET `/users`
-	- Index route returning an array of all Users and nested 'Likes'
+	- Index route returning an array of all Users 
 - GET `/users/:id`
-	- Show route for a user requested by ID
+	- Show route for a user requested by User ID
 - POST `/users`
 	- Create route for a new user
-- PUT `/users/:id/nominate`
-  - Update a user by id to create an association to the ballots table
+- PUT `/users/:id/update`
+  - Update a user by id 
+- GET `/agent`
+	- Index route returning an array of all Agents 
+- GET `/agent/:id`
+	- Show route for a Agent requested by Agent ID
+- POST `/agent`
+	- Create route for new Agents
+- PUT `/agent/:id/update`
+  - Update a user by id 
+- GET `/property`
+	- Index route returning an array of all properties 
+- GET `/property/:id`
+	- Show route for a property requested by Property ID
+- POST `/property`
+	- Create route for a new property
+- PUT `/property/:id/update`
+  - Update a property by id 
 
 <br>
 
@@ -166,11 +180,11 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 ## Post-MVP
 
 > 
-Have a for rent and for sale section to render a list and specific info
-Have a favorites section so visitors can save the properties that they like
-When a property is rented/sold switch to unavailable
-Agents page and add agent profile 
-Maps pinned to house location
+Have a for rent and for sale section to render a list and specific info<>
+Have a favorites section so visitors can save the properties that they like<>
+When a property is rented/sold switch to unavailable<>
+Agents page and add agent profile <>
+Maps pinned to house location <>
 
 <br>
 
