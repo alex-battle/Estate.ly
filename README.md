@@ -22,8 +22,10 @@ Luxury Real Estate Website to view, upload, and search properties
 <br>
 
 ### Permissions
-
-Digital assets used with full licensing and permission from [Death to Stock Photo](), [Freepik](), and [Unsplash](). Custom digital design and branding by John Lansing. Digital assets stored locally and on [Imgur]().
+Imgur
+Faker
+Google
+Zillow
 
 <br>
 
@@ -52,7 +54,7 @@ Digital assets used with full licensing and permission from [Death to Stock Phot
 |  Ruby on Rails  | _Build back end of application._ |
 |     Faker      | _Provide fake data to fill in for Agent Info/addresses/etc._ |
 |     Formik      | _Create and handle form state and data_ |
-| Api | _https://www.zillow.com/howto/api/GetSearchResults.htm_ |
+| External Api | _https://www.zillow.com/howto/api/GetSearchResults.htm_ |
 
 <br>
 
@@ -78,21 +80,21 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 |  Component   | State | Description                                                      |
 | :----------: | :---: | :--------------------------------------------------------------- |
-|    Header    |   n   | _The Header will contain Navigation_               |
-|  Navigation  |   n   | _The navigation will provide a links to each page(Luxury Properties, Search Properties, Rental, Sales, Staff, Open House, About us)_       |
-|   Main    |   y   | _The main component will hold all my Routes and dependencies as well as pass props_      |
-| For Rent |   y   | _The For Rent Component will pass props to the Rent Results page as well as render a list of properties for rent_                 |
-|    Rent Results    |   n   | _Render specific info about each property for Rent_               |
-| For Sale | y | _The For Sale Component will pass props to the Sale Results page as well as render a list of properties for sale_	|
-|    Sale Results    |   n   | _Render specific info about each property for sale_               |
-|    Search Page    |   y   | _Input search parameters to make External API Call to pass props down in order to render All properties available_               |
-|    House Results    |   y   | _House results render a list of houses for sale and pass props down to search results component_               |
-|    Search Results    |   n   | _Render specific info about each property from API source_               |
-|    About Us     |   n   | _A little data about the company and origins_               |
-|    Contact    |   n   | _Forms to input  contact information and phone number/email_               |
-|    Staff    |   y   | _Render Staff photos and names and pass info to Agent info component_               |
-|    Agent Info    |   n   | _Info card for each agent_               |
-|    Footer    |   n   | _The footer will show contact info and dummy links._ |
+|    Header    |   N   | _The Header will contain Navigation_               |
+|  Navigation  |   N   | _The navigation will provide a links to each page(Luxury Properties, Search Properties, Rental, Sales, Staff, Open House, About us)_       |
+|   Main    |   Y   | _The main component will hold all my Routes and dependencies as well as pass props_      |
+| For Rent |   Y   | _The For Rent Component will pass props to the Rent Results page as well as render a list of properties for rent_                 |
+|    Rent Results    |   N   | _Render specific info about each property for Rent_               |
+| For Sale | Y | _The For Sale Component will pass props to the Sale Results page as well as render a list of properties for sale_	|
+|    Sale Results    |   N   | _Render specific info about each property for sale_               |
+|    Search Page    |   Y   | _Input search parameters to make External API Call to pass props down in order to render All properties available_               |
+|    House Results    |   Y   | _House results render a list of houses for sale and pass props down to search results component_               |
+|    Search Results    |   N   | _Render specific info about each property from API source_               |
+|    About Us     |   N   | _A little data about the company and origins_               |
+|    Contact    |   N   | _Forms to input  contact information and phone number/email_               |
+|    Staff    |   Y   | _Render Staff photos and names and pass info to Agent info component_               |
+|    Agent Info    |   N   | _Info card for each agent_               |
+|    Footer    |   N   | _The footer will show contact info and dummy links._ |
 
 <br>
 
@@ -111,7 +113,7 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 - POST `/users`
 	- Create route for a new user
 - PUT `/users/:id/update`
-  - Update a user by id 
+  	- Update a user by id 
 - GET `/agent`
 	- Index route returning an array of all Agents 
 - GET `/agent/:id`
@@ -119,7 +121,7 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 - POST `/agent`
 	- Create route for new Agents
 - PUT `/agent/:id/update`
-  - Update a user by id 
+  	- Update a user by id 
 - GET `/property`
 	- Index route returning an array of all properties 
 - GET `/property/:id`
@@ -127,7 +129,7 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 - POST `/property`
 	- Create route for a new property
 - PUT `/property/:id/update`
-  - Update a property by id 
+  	- Update a property by id 
 
 <br>
 
