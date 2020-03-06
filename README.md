@@ -182,11 +182,11 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 ## Post-MVP
 
 > 
-Have a for rent and for sale section to render a list and specific info<>
-Have a favorites section so visitors can save the properties that they like<>
-When a property is rented/sold switch to unavailable<>
-Agents page and add agent profile <>
-Maps pinned to house location <>
+Have a for rent and for sale section to render a list and specific info<br>
+Have a favorites section so visitors can save the properties that they like<br>
+When a property is rented/sold switch to unavailable<br>
+Agents page and add agent profile <br>
+Maps pinned to house location <br>
 
 <br>
 
