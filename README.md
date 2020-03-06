@@ -2,7 +2,6 @@
 Luxury Real Estate Website to view, upload, and search properties 
 ![3b0f623a-d6ef-4bab-b626-8a5e422f1ed5_200x200](https://media.git.generalassemb.ly/user/25137/files/f72a5800-5ef4-11ea-8e43-56c5ad26a2d9)
 - [Full Stack Project](#Full-Stack-Project)
-  - [Overview](#Overview)
   - [MVP](#MVP)
     - [MVP Goals](#MVP-Goals)
     - [MVP Libraries](#MVP-Libraries)
@@ -10,7 +9,6 @@ Luxury Real Estate Website to view, upload, and search properties
       - [Wireframes](#Wireframes)
       - [Component Hierarchy](#Component-Hierarchy)
       - [Component Breakdown](#Component-Breakdown)
-      - [Component Estimates](#Component-Estimates)
     - [MVP Server (Back End)](#MVP-Server-Back-End)
       - [ERD Model](#ERD-Model)
       - [Data Heirarchy](#Data-Heirarchy)
