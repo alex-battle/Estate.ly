@@ -67,8 +67,6 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
-
 DESKTOP WIREFRAME
 ![image](https://media.git.generalassemb.ly/user/25137/files/e7693e80-5f09-11ea-85e2-e800eb913988)
 https://www.figma.com/file/bEExsFE3oxVAMyDPyAD0kK/Estate.ly?node-id=0%3A1
@@ -137,29 +135,38 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 > Use this section to estimate the time necessary to build out the various sections of your project. You may include an additional priority matrix, if you desire.
 
+![image](https://media.git.generalassemb.ly/user/25137/files/c0fcd080-5f14-11ea-8d77-ffa83c31743b)
+
+
 | Task                | Priority | Estimated Time | Actual Time |
 | ------------------- | :------: | :------------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     TBD     |
-| TOTAL               |          |     6 hrs      |     TBD     |
-
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+| Add Header Links    |    M     |     2 hrs      |    -- hrs    |
+| Set links to routes |    H     |     2 hrs      |     -- hrs     |
+| Fill About Us/Contact Info with Dummy Data |    L     |     2 hrs      |     -- hrs     |
+| Get External API to render data |    H     |     3 hrs      |     -- hrs     |
+| Create form for House search calling from external Api |    H     |     3 hrs      |     -- hrs     |
+| Get House results data to render in a list |    H     |     3 hrs      |     -- hrs     |
+| Render specific house data from house results |    M     |     3 hrs      |     --hrs     |
+| Render data from local api for Rentals, Sales, and Staff |    H     |     6 hrs      |     --hrs     |
+| Render specific data from local api for Rentals, Sales, and Staff results |    M     |     3 hrs      |     --hrs     |
+| Styling |    H     |     18 hrs      |     -- hrs     |
+| Create CRUD Actions |    H     |     3 hrs      |     -- hrs     |
+| User Authentication | H | 5 hrs | --hrs |
+| TOTAL               |          |     6 hrs      |     -- hrs     |
 
 <br>
 
 ### Schedule
 
-> Use this section to look at your project week and plan out when and what you want to do.
-
 |  Day   | Deliverables                              |
 | ------ | ----------------------------------------- |
 |Mar 4th | project proposal worksheet / psuedocoding |
 |Mar 5th | project pitch / build out endpoints       |
-|Mar 6th | Build out front-end components            |
-|Mar 7th | OFF                                       |
-|Mar 8th | impliment user auth                       |
-|Mar 9th | styling                                   |
-|Mar 10th| MVP, begin post-MVP                       |
+|Mar 6th | Pitch Approval/Start low priority front end tasks     |
+|Mar 7th | Build Skeletons/Backend                   |
+|Mar 8th | Get all data rendering                    |
+|Mar 9th | impliment user auth / begin styling       |
+|Mar 10th| Finish styling/ MVP                       |
 |Mar 11th| post-MVP                                  |
 |Mar 12th| polishing                                 |
 |Mar 13th| final presentations                       |
