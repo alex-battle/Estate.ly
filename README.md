@@ -47,15 +47,14 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ### MVP Libraries
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project.
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _Build front end of application_ |
+|   React Router   | _Routing library_ |
+|     Axios      | _Perform Http api requests_ |
+|  Ruby on Rails  | _Build back end of application._ |
+|     Faker      | _Provide fake data to fill in for Agent Info/addresses/etc._ |
+|     Formik      | _Create and handle form state and data_ |
 
 <br>
 
@@ -78,8 +77,6 @@ https://whimsical.com/V2Eh2wf5noksCVP6UwV6TG
 https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 #### Component Breakdown
-
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
 
 |  Component   | State | Description                                                      |
 | :----------: | :---: | :--------------------------------------------------------------- |
