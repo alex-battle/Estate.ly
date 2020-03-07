@@ -14,6 +14,7 @@ import FooterNav from './FooterNav';
 import Search_Result_Details from './Search_Result_Details';
 import Home from './Home'
 import Open_House from './Open_House'
+import axios from 'axios'
 
 
 function Main(){
