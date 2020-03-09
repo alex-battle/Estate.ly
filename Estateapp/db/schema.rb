@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2020_03_06_210827) do
 
   create_table "agents", force: :cascade do |t|
     t.integer "agentId"
+    t.string "name"
     t.string "email"
     t.string "phoneNumber"
     t.string "website"
