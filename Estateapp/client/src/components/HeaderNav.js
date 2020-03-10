@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 // import Navbar from 'bootstrap'
 
 function HeaderNav() {
@@ -41,22 +41,11 @@ function HeaderNav() {
                     <li class="nav-item">
                         <a class="nav-link" href="/contact">Contact Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" 
-                        href="#" 
-                        id="navbarDropdownMenuLink" 
-                        data-toggle="dropdown" 
-                        aria-haspopup="true" 
-                        aria-expanded="false">
-                            Luxury Properties
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/sale">For Sale</a>
-                            <a class="dropdown-item" href="/rent">For Rent</a>
-                            {/* <a class="dropdown-item" href="#">Something else here</a> */}
-                        </div>
-
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sale">Buy Luxury</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rent">Rent Luxury</a>
                     </li>
                 </ul>
             </div>
