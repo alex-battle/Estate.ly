@@ -1,20 +1,21 @@
 import React from 'react';
 import {Route} from 'react-router-dom'
-import About_Us from './About_us'
-import Contact_Us from './Contact_Us'
+import AboutUs from './AboutUs'
+import ContactUs from './ContactUs'
 import Staff from './Staff'
-import Agent_info from './Agent_info'
-import For_Rent from './For_Rent';
-import For_rent_info from './For_rent_info';
-import For_Sale from './For_Sale';
+import AgentInfo from './AgentInfo'
+import ForRent from './ForRent';
+import ForRentInfo from './ForRentInfo';
+import ForSale from './ForSale';
 import Search from './Search';
-import Search_Results from './Search_Results';
+// import SearchResults from './SearchResults';
 import HeaderNav from './HeaderNav';
 import FooterNav from './FooterNav';
-import Search_Result_Details from './Search_Result_Details';
+// import SearchResultDetails from './SearchResultDetails';
 import Home from './Home'
-import Open_House from './Open_House'
-import axios from 'axios'
+import OpenHouse from './OpenHouse'
+import Login from './Login'
+// import axios from 'axios'
 
 
 function Main(){
@@ -25,22 +26,23 @@ function Main(){
             </div>
             <div>
             <Route exact path='/'><Home /></Route>
-            <Route exact path='/about'><About_Us /></Route>
+            <Route exact path='/about'><AboutUs /></Route>
             <Route exact path='/staff'><Staff /></Route>
-            <Route exact path='/staff/:name'><Agent_info /></Route>
-            <Route exact path='/openhouse'><Open_House /></Route>
-            <Route exact path='/contact'><Contact_Us /></Route>
-            <Route exact path='/rent'><For_Rent /></Route>
-            <Route exact path='/rent/:name'><For_rent_info /></Route>
-            <Route exact path='/sale'><For_Sale /></Route>
+            <Route exact path='/staff/:name'><AgentInfo /></Route>
+            <Route exact path='/openhouse'><OpenHouse /></Route>
+            <Route exact path='/contact'><ContactUs /></Route>
+            <Route exact path='/rent'><ForRent /></Route>
+            <Route exact path='/rent/:name'><ForRentInfo /></Route>
+            <Route exact path='/sale'><ForSale /></Route>
             <Route exact path='/sale/:name'></Route>
             <Route exact path='/search'><Search /></Route>
             <Route exact path='/search/:name'></Route>
             <Route exact path='/search/list/'></Route>
+            <Route exact path='/login'><Login /></Route>
 
             </div>
             <div className="footer">
-            <FooterNav />
+            
             </div>
         </div>
     )

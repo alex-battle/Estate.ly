@@ -24,18 +24,16 @@ ActiveRecord::Schema.define(version: 2020_03_06_210827) do
   end
 
   create_table "agents", force: :cascade do |t|
-    t.integer "agentId"
     t.string "name"
     t.string "email"
     t.string "phoneNumber"
     t.string "website"
-    t.integer "propertyId"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "properties", force: :cascade do |t|
-    t.integer "propertyId"
+    t.bigint "agent_id", null: false
     t.string "address"
     t.string "propertyType"
     t.integer "rooms"
@@ -48,6 +46,8 @@ ActiveRecord::Schema.define(version: 2020_03_06_210827) do
     t.string "photo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["agent_id"], name: "index_properties_on_agent_id"
   end
 
+  add_foreign_key "properties", "agents"
 end

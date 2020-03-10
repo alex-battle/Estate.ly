@@ -6,7 +6,6 @@ class Admin < ApplicationRecord
     validates :email, presence: true, uniqueness: true
     validates :email, format: {with: URI::MailTo::EMAIL_REGEXP}
 
-    has_many :property
-    has_and_belongs_to_many :agents
+    # has_and_belongs_to_many :agents
 
 end

@@ -46,6 +46,6 @@ class AgentsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def agent_params
-      params.require(:agent).permit(:agentId, :email, :phoneNumber, :website, :propertyId)
+      params.require(:agent).permit(:email, :phoneNumber, :website)
     end
 end

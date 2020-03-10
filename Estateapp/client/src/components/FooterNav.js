@@ -2,7 +2,7 @@ import React from 'react';
 
 function FooterNav(){
     return(
-        <div>
+        <div className="footer">
             <div className ="upperFooter">
             <div className="contactFooter">
                 Estate.ly
