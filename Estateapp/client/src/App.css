@@ -160,8 +160,65 @@ h3 {
   font-size: 5rem;
   font-family: 'Playfair Display', serif;
 }
-
-
+.contactTitle{
+  font-size: 8rem;
+  font-family: 'Playfair Display', serif;
+}
+.contactBanner{
+  background-image: url('https://66.media.tumblr.com/cf2b0e57b06b7c9f5ee266794e858ddd/tumblr_owjb0n6cm11tzbweio1_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem;
+  width: 100%;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 25.5rem;
+}
+.contactInfo{
+  display: flex;
+  float: left;
+  text-align: justify;
+  border-right: 2px solid grey;
+  height: 20rem;
+  width: 20rem;
+  margin-left: 9rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+.searchBanner{
+  background-image: url('https://66.media.tumblr.com/aab4199a4050f5c8829eb7b51109905e/tumblr_pmrpdp5hR11ulg6zuo10_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem;
+  width: 100%;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 29rem;
+}
+.searchTitle{
+  margin-top: 4rem;
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+}
+.forRentBanner{
+  background-image: url('https://66.media.tumblr.com/4892440feff3b760e73478c215c8750a/tumblr_pmrqerPAc91ulg6zuo1_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem;
+  width: 100%;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  font-size: 26rem;
+}
+.forRentTitle{
+  margin-top: 4rem;
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

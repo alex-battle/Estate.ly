@@ -3,7 +3,7 @@ import React from 'react';
 function StaffBanner(){
     return(
         <div className="staffBanner">
-            Staff  
+            Team  
         </div>
     )
 }

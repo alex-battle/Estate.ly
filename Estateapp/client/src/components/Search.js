@@ -1,4 +1,6 @@
 import React from 'react';
+import SearchBanner from './SearchBanner';
+import SearchTitle from './SearchTitle';
 
 class Search extends React.Component {
     constructor(props) {
@@ -8,7 +10,8 @@ class Search extends React.Component {
     render() {
         return (
             <div>
-                Search
+                <SearchBanner />
+                <SearchTitle />
             </div>
         );
     }

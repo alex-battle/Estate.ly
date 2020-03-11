@@ -1,11 +1,14 @@
 import React from 'react';
+import ForRentBanner from './ForRentBanner';
+import ForRentTitle from './ForRentTitle';
 
 class For_Rent extends React.Component {
     state = {  }
     render(){
         return (
             <div>
-                For_Rent
+                <ForRentBanner/>
+                <ForRentTitle/>
             </div>
         )
     }
