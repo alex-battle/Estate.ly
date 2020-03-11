@@ -23,7 +23,7 @@ class App extends React.Component {
       propertylist: respons.data
     })
     // this.handleChange=this.handleChange.bind(this)
-    this.handleButtonClick= this.handleButtonClick.bind(this)
+    // this.handleButtonClick= this.handleButtonClick.bind(this)
   }
   async allAgentHandleClick(e){
     let allAgents = await findAllAgents();
@@ -45,7 +45,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <Main 
-      allAgentList = {this.state.allAgentList}
+      allAgentList = {this.state.agentlist}
       allPropertyList = {this.state.allPropertyList}
       allAgentHandleClick={this.allAgentHandleClick}
       allPropertyHandleClick={this.allPropertyList}

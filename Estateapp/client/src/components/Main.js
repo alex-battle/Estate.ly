@@ -24,7 +24,7 @@ function Main(props){
             <div>
             <Route exact path='/'><Home /></Route>
             <Route exact path='/about'><AboutUs /></Route>
-            <Route exact path='/staff'><Staff allAgentlist={props.allAgentlist} allAgentHandleClick={props.allAgentHandleClick} /></Route>
+            <Route exact path='/staff'><Staff allAgentList={props.allAgentList} allAgentHandleClick={props.allAgentHandleClick} /></Route>
             <Route exact path='/staff/:name'><AgentInfo /></Route>
             <Route exact path='/openhouse'><OpenHouse /></Route>
             <Route exact path='/contact'><ContactUs /></Route>

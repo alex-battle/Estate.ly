@@ -13,7 +13,9 @@ class Staff extends React.Component {
             <div>
                 <StaffBanner/>
                 <StaffTitle/>
-                <StaffCard />
+                {this.props.allAgentList.map((agent,index)=>(
+                    <StaffCard key={index} agent={agent}/>
+                ))}
             </div>
         );
     }
