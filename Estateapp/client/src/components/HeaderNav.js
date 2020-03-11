@@ -2,7 +2,7 @@ import React from 'react';
 // import { NavLink } from 'react-router-dom'
 // import Navbar from 'bootstrap'
 
-function HeaderNav() {
+function HeaderNav(props) {
     return (
         <div className="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,7 +33,7 @@ function HeaderNav() {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/staff">Team</a>
+                        <a class="nav-link" href="/staff" onClick={props.allAgentHandleClick}>Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/openhouse">Open House</a>

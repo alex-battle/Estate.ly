@@ -8,26 +8,23 @@ import ForRent from './ForRent';
 import ForRentInfo from './ForRentInfo';
 import ForSale from './ForSale';
 import Search from './Search';
-import ForSaleResults from './ForSaleBanner';
 import HeaderNav from './HeaderNav';
-import FooterNav from './FooterNav';
 import SearchResultDetails from './SearchResultDetails';
 import Home from './Home'
 import OpenHouse from './OpenHouse'
 import Login from './Login'
-// import axios from 'axios'
 
 
-function Main(){
+function Main(props){
     return(
         <div>
             <div className="header">
-            <HeaderNav />
+            <HeaderNav allAgentHandleClick={props.allAgentHandleClick} />
             </div>
             <div>
             <Route exact path='/'><Home /></Route>
             <Route exact path='/about'><AboutUs /></Route>
-            <Route exact path='/staff'><Staff /></Route>
+            <Route exact path='/staff'><Staff allAgentlist={props.allAgentlist} allAgentHandleClick={props.allAgentHandleClick} /></Route>
             <Route exact path='/staff/:name'><AgentInfo /></Route>
             <Route exact path='/openhouse'><OpenHouse /></Route>
             <Route exact path='/contact'><ContactUs /></Route>
