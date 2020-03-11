@@ -3,8 +3,8 @@ import React from 'react';
 function ContactForm(){
     return(
         <div>
-    <div class="column">
-      <form action="/action_page.php">
+    {/* <div class="column"> */}
+      {/* <form action="/action_page.php">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
@@ -18,7 +18,8 @@ function ContactForm(){
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
         <input type="submit" value="Submit">
-      </form>
+      </form> */}
+      form
         </div>
     )
 }

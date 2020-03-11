@@ -203,6 +203,16 @@ h3 {
   font-size: 4rem;
   font-family: 'Playfair Display', serif;
 }
+.searchForm{
+  height: 28rem;
+  width: 100%;
+  background-color: rgb(139, 120, 165);
+}
+.searchContainer{
+  width: 60rem;
+  height: 20rem;
+  background-color: royalblue;
+}
 .forRentBanner{
   background-image: url('https://66.media.tumblr.com/4892440feff3b760e73478c215c8750a/tumblr_pmrqerPAc91ulg6zuo1_1280.jpg');
   background-position: center;
@@ -211,10 +221,27 @@ h3 {
   width: 100%;
   background-size: cover;
   font-family: 'Playfair Display', serif;
-  color: black;
+  color: white;
+  text-shadow: black;
   font-size: 26rem;
 }
 .forRentTitle{
+  margin-top: 4rem;
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+}
+.forSaleBanner{
+  background-image: url('https://66.media.tumblr.com/4691d12da1fcc7869e9e3c96c22bade4/tumblr_pcl011nxWE1w5co06o1_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 39rem;
+  width: 100%;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+  color:white;
+  font-size: 29rem;
+}
+.forSaleTitle{
   margin-top: 4rem;
   font-size: 4rem;
   font-family: 'Playfair Display', serif;

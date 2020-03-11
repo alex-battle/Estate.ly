@@ -1,4 +1,6 @@
 import React from 'react';
+import ForSaleBanner from './ForSaleBanner';
+import ForSaleTitle from './ForSaleTitle';
 
 class For_sale extends React.Component {
     constructor(props) {
@@ -8,7 +10,8 @@ class For_sale extends React.Component {
     render() {
         return (
             <div>
-                For_sale
+                <ForSaleBanner/>
+                <ForSaleTitle/>
             </div>
         );
     }
