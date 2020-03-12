@@ -15,7 +15,7 @@ import AllProperty from './AllProperty'
 import LogInOrSignUp from './LoginOrSignUp'
 import LogInForm from './LogInForm'
 import SignUp from './SignUp'
-
+import AdminPage from './AdminPage'
 
 function Main(props){
     return(
@@ -26,6 +26,7 @@ function Main(props){
             <div>
             <Route exact path='/'><Home /></Route>
             <Route exact path='/login'><LogInOrSignUp/></Route>
+            <Route exact path='/admin'><AdminPage/></Route>
             <Route exact path='/signin'><LogInForm handleLogInChange={props.handleLogInChange} handleLogIn={props.handleLogIn}/></Route>
             <Route exact path='/signup'><SignUp/></Route>
             <Route exact path='/about'><AboutUs /></Route>

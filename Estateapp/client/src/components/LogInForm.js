@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import {Link} from 'react-router-dom'
 
 function LogInForm(props){
 return(
@@ -15,9 +16,11 @@ return(
     <Form.Label>Password</Form.Label>
     <Form.Control type="password" name="password" onChange={props.handleLogInChange} placeholder="Password" />
   </Form.Group>
+  <Link to="/admin">
   <Button variant="light" type="submit">
     Submit
   </Button>
+  </Link>
 </Form>
 </div>
 )
