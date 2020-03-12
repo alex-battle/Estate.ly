@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button'
 
 function LogInForm(){
 return(
+    <div className="login">
 <Form>
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
@@ -21,6 +22,7 @@ return(
     Submit
   </Button>
 </Form>
+</div>
 )
 }
 export default LogInForm;

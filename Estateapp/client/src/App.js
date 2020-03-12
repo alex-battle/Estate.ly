@@ -3,6 +3,7 @@ import './App.css';
 import Main from './components/Main'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {findAllAgents, findAllProperties} from './services/ApiHelper'
+import axios from 'axios'
 
 class App extends React.Component {
   constructor() {
@@ -13,6 +14,7 @@ class App extends React.Component {
       propertylist: []
      };
   }
+
   async componentDidMount(){
     let response = await findAllAgents();
     this.setState({
@@ -26,6 +28,7 @@ class App extends React.Component {
     // this.handleChange=this.handleChange.bind(this)
     // this.handleButtonClick= this.handleButtonClick.bind(this)
   }
+  
   async allAgentHandleClick(e){
     let allAgents = await findAllAgents();
     console.log(allAgents)

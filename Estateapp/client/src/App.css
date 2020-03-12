@@ -399,6 +399,13 @@ h3 {
   /* margin-left: 4rem;
   height:20rem; */
 }
+.login{
+  width: 50rem;
+  height: 50rem;
+  /* align-items: center; */
+  display: flex;
+  justify-content: flex-end;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
