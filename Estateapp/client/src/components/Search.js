@@ -14,7 +14,7 @@ class Search extends React.Component {
             <div>
                 <SearchBanner />
                 <SearchTitle />
-                <SearchForm/>
+                <SearchForm searchInput={this.state.searchInput} handleChange={this.state.handleChange} />
             </div>
         );
     }

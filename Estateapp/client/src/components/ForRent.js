@@ -1,6 +1,7 @@
 import React from 'react';
 import ForRentBanner from './ForRentBanner';
 import ForRentTitle from './ForRentTitle';
+import ForRentList from './ForRentList';
 
 class For_Rent extends React.Component {
     state = {  }
@@ -9,6 +10,7 @@ class For_Rent extends React.Component {
             <div>
                 <ForRentBanner/>
                 <ForRentTitle/>
+                <ForRentList/>
             </div>
         )
     }

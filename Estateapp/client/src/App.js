@@ -8,6 +8,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = { 
+      searchInput: '',
       agentlist: [],
       propertylist: []
      };
@@ -39,6 +40,14 @@ class App extends React.Component {
       propertylist: allProperty.data
     })
   }
+  handleChange(e){
+    let value = e.target.value
+    this.setState({
+      searchInput: value
+    }
+    )
+  }
+
   
   
   render(){
@@ -46,9 +55,10 @@ class App extends React.Component {
       <div className="App">
       <Main 
       allAgentList = {this.state.agentlist}
-      allPropertyList = {this.state.allPropertyList}
+      allPropertyList = {this.state.propertylist}
       allAgentHandleClick={this.allAgentHandleClick}
       allPropertyHandleClick={this.allPropertyList}
+      searchInput={this.state.searchInput}
       />
     </div>
     );

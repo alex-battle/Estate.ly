@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import {Link} from 'react-router-dom'
 
 class StaffCard extends React.Component {
     constructor(props) {
@@ -17,7 +18,7 @@ class StaffCard extends React.Component {
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>{this.props.agent.name}</Card.Title>
-                        <Button variant="light">View Profile</Button>
+                       <Link to="/staff/:name" ><Button variant="light">View Profile</Button></Link>
                     </Card.Body>
                 </Card>
             </div>

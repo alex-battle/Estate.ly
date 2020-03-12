@@ -33,10 +33,10 @@ function HeaderNav(props) {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/staff" onClick={props.allAgentHandleClick}>Team</a>
+                        <a className="nav-link" href="/staff">Team</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/openhouse">Open House</a>
+                        <a className="nav-link" href="/all">All Listings</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/contact">Contact Us</a>

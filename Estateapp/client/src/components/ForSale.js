@@ -1,6 +1,7 @@
 import React from 'react';
 import ForSaleBanner from './ForSaleBanner';
 import ForSaleTitle from './ForSaleTitle';
+import ForSaleList from './ForSaleList';
 
 class For_sale extends React.Component {
     constructor(props) {
@@ -12,6 +13,7 @@ class For_sale extends React.Component {
             <div>
                 <ForSaleBanner/>
                 <ForSaleTitle/>
+                <ForSaleList/>
             </div>
         );
     }

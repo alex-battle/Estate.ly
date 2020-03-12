@@ -8,15 +8,15 @@
 require 'faker'
  
 @alex = Agent.create!(name: 'Alex Battle' , email: Faker::Internet.email(name: 'Alex'), phoneNumber: Faker::PhoneNumber.cell_phone, website: 'alex.com')
-@property = @alex.properties.build( address: Faker::Address.street_address, propertyType: 'duplex', rooms: 3, bathrooms: 2, rentAmount: 1000, rentedTo: 0, purchasePrice: 20000, soldTo: 'Keri Hilson', availability: true)
+@property = @alex.properties.build( address: Faker::Address.street_address, propertyType: 'duplex', rooms: 3, bathrooms: 2, rentAmount: 0, rentedTo: 0, purchasePrice: 20000, soldTo: 'Keri Hilson', availability: true)
 @property.save
 
 @trent = Agent.create!( name: 'Trent Taylor', email: Faker::Internet.email(name: 'Trent'), phoneNumber: Faker::PhoneNumber.cell_phone, website: 'trent.com')
 @property = @trent.properties.build( address: Faker::Address.street_address, propertyType: 'loft', rooms: 2, bathrooms: 1, rentAmount: 1500, rentedTo: 'Mya Planet', purchasePrice: 2000, soldTo: 'l', availability: true)
 @property.save
 
-@jason = Agent.create!(name: 'Alex Battle', email:'alex212@gmail.com', phoneNumber: '7574052434', website: 'alex.com')
-@property = @jason.properties.build(address: '555 State Street', propertyType: 'condo', rooms: 2, bathrooms: 1, rentAmount: 1500, rentedTo: '', purchasePrice: '', soldTo: '', availability: true)
+@jason = Agent.create!(name: 'Jason McDonald', email:Faker::Internet.email(name: 'Jason'), phoneNumber: Faker::PhoneNumber.cell_phone, website: 'jason.com')
+@property = @jason.properties.build(address: Faker::Address.street_address, propertyType: 'condo', rooms: 2, bathrooms: 1, rentAmount: 1500, rentedTo: 'me', purchasePrice: 0, soldTo: '', availability: true)
 @property.save
 puts "#{Property.count} property created!"
  puts "#{Agent.count} agents created!"
