@@ -2,21 +2,18 @@ import React from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
-function LogInForm(){
+function LogInForm(props){
 return(
     <div className="login">
-<Form>
+<Form onSubmit={props.handleLogIn}>
   <Form.Group controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
-    <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
-    </Form.Text>
+    <Form.Label>Username</Form.Label>
+    <Form.Control type="input" name="username" onChange={props.handleLogInChange} placeholder="Enter email" />
   </Form.Group>
 
   <Form.Group controlId="formBasicPassword">
     <Form.Label>Password</Form.Label>
-    <Form.Control type="password" placeholder="Password" />
+    <Form.Control type="password" name="password" onChange={props.handleLogInChange} placeholder="Password" />
   </Form.Group>
   <Button variant="light" type="submit">
     Submit

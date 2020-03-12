@@ -26,7 +26,7 @@ function Main(props){
             <div>
             <Route exact path='/'><Home /></Route>
             <Route exact path='/login'><LogInOrSignUp/></Route>
-            <Route exact path='/signin'><LogInForm/></Route>
+            <Route exact path='/signin'><LogInForm handleLogInChange={props.handleLogInChange} handleLogIn={props.handleLogIn}/></Route>
             <Route exact path='/signup'><SignUp/></Route>
             <Route exact path='/about'><AboutUs /></Route>
             <Route exact path='/staff'><Staff allAgentList={props.allAgentList} allAgentHandleClick={props.allAgentHandleClick} /></Route>

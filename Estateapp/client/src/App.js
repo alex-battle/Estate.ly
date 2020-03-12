@@ -11,9 +11,13 @@ class App extends React.Component {
     this.state = { 
       searchInput: '',
       agentlist: [],
-      propertylist: []
+      propertylist: [],
+      username:'',
+      password: ''
      };
   }
+
+
 
   async componentDidMount(){
     let response = await findAllAgents();
@@ -28,7 +32,25 @@ class App extends React.Component {
     // this.handleChange=this.handleChange.bind(this)
     // this.handleButtonClick= this.handleButtonClick.bind(this)
   }
-  
+
+  handleLogInChange =(e) =>{
+    const {name, value} =e.target
+    this.setState({
+      [name]: value
+    })
+    console.log(this.state)
+  }
+
+  handleLogIn = async (e) =>{
+    e.preventDefault()
+    const post = await axios({
+      method: 'post',
+      url: 'http://localhost:3000/auth/login',
+      data: {username: this.state.username, password: this.state.password}
+    })
+    localStorage.setItem('token', post.data.token)
+  }
+
   async allAgentHandleClick(e){
     let allAgents = await findAllAgents();
     console.log(allAgents)
@@ -59,8 +81,10 @@ class App extends React.Component {
       <Main 
       allAgentList = {this.state.agentlist}
       allPropertyList = {this.state.propertylist}
-      allAgentHandleClick={this.allAgentHandleClick}
       allPropertyHandleClick={this.allPropertyList}
+      allAgentHandleClick={this.allAgentHandleClick}
+      handleLogInChange={this.handleLogInChange}
+      handleLogIn={this.handleLogIn}
       searchInput={this.state.searchInput}
       />
     </div>
