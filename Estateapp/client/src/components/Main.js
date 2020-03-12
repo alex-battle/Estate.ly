@@ -12,7 +12,9 @@ import HeaderNav from './HeaderNav';
 import SearchResultDetails from './SearchResultDetails';
 import Home from './Home'
 import AllProperty from './AllProperty'
-import Login from './Login'
+import LogInOrSignUp from './LoginOrSignUp'
+import LogInForm from './LogInForm'
+import SignUp from './SignUp'
 
 
 function Main(props){
@@ -23,6 +25,9 @@ function Main(props){
             </div>
             <div>
             <Route exact path='/'><Home /></Route>
+            <Route exact path='/login'><LogInOrSignUp/></Route>
+            <Route exact path='/signin'><LogInForm/></Route>
+            <Route exact path='/signup'><SignUp/></Route>
             <Route exact path='/about'><AboutUs /></Route>
             <Route exact path='/staff'><Staff allAgentList={props.allAgentList} allAgentHandleClick={props.allAgentHandleClick} /></Route>
             <Route exact path='/staff/:name'><AgentInfo allAgentList={props.allAgentList} allAgentHandleClick={props.allAgentHandleClick}/></Route>
@@ -36,7 +41,7 @@ function Main(props){
             <Route exact path='/sale/:name'></Route>
             <Route exact path='/search'><Search handleChange={props.handleChange} searchInput={props.searchInput}/></Route>
             <Route exact path='/search/:name'><SearchResultDetails/></Route>
-            <Route exact path='/login'><Login /></Route>
+            {/* <Route exact path='/login'><Login /></Route> */}
             </div>
             <div className="footer">
             

@@ -1,6 +1,9 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 
+function LogInForm(){
+return(
 <Form>
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
@@ -14,10 +17,10 @@ import Form from 'react-bootstrap/Form'
     <Form.Label>Password</Form.Label>
     <Form.Control type="password" placeholder="Password" />
   </Form.Group>
-  <Form.Group controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
-  <Button variant="primary" type="submit">
+  <Button variant="light" type="submit">
     Submit
   </Button>
 </Form>
+)
+}
+export default LogInForm;
