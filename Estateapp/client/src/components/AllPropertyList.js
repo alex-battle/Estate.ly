@@ -1,7 +1,7 @@
 import React from 'react';
-
-function AllPropertyList(props){
-    return(
+import Button from 'react-bootstrap/Button'
+function AllPropertyList(props) {
+    return (
         <div className="allPropertyList">
             <div className="allPropertyMap">
                 map
@@ -12,6 +12,9 @@ function AllPropertyList(props){
                 Rooms:{props.properties.rooms}
                 <br></br>
                 Bathrooms:{props.properties.bathrooms}
+            <div className="allMoreInfoButton">
+                <Button variant="outline-secondary" size='sm'>More Info</Button>
+            </div>
             </div>
         </div>
     )

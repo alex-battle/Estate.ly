@@ -393,6 +393,12 @@ h3 {
   margin-right: 3rem;
   margin-left: 2rem;
 }
+.allMoreInfoButton{
+  display: flex;
+  align-self: center;
+  /* margin-left: 4rem;
+  height:20rem; */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
