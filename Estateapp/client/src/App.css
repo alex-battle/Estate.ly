@@ -30,8 +30,6 @@
 
 .homeBanner{
   color: white;
-  /* font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 800; */
   height: 50rem;
   width: 100%;
   background-image: url("https://66.media.tumblr.com/7c9b402993d9044a5b96ab8b2034da89/tumblr_p6ou46CN6G1ulg6zuo7_1280.jpg");
@@ -76,7 +74,6 @@ h2 {
   font-size: .01rem;
 }
 .homeForSale{
-  /* background-color: red; */
   background-image: url("https://66.media.tumblr.com/edd581e852862262f05e942e8d677840/tumblr_p6ou46CN6G1ulg6zuo2_1280.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +101,6 @@ h2 {
   padding: .5rem;
 }
 .homeForRent{
-  /* background-color: blue; */
   background-image: url('https://66.media.tumblr.com/792f2098be6e8281656dbd5e48d6ae8e/tumblr_p6ou46CN6G1ulg6zuo5_1280.jpg');
   height: 40rem;
   width: 40rem;
@@ -185,7 +181,6 @@ h3 {
   font-family: 'Playfair Display', serif;
 }
 .staffCard{
-  /* height: 60rem; */
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -396,13 +391,16 @@ h3 {
 .allMoreInfoButton{
   display: flex;
   align-self: center;
-  /* margin-left: 4rem;
-  height:20rem; */
 }
 .login{
   width: 50rem;
   height: 50rem;
-  /* align-items: center; */
+  display: flex;
+  justify-content: flex-end;
+}
+.updateAgent{
+  width: 50rem;
+  height: 50rem;
   display: flex;
   justify-content: flex-end;
 }

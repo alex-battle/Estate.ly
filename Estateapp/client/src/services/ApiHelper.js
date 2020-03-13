@@ -1,5 +1,12 @@
 import axios from 'axios'
 
+
+const baseUrl = 'http://localhost:3000'
+
+const api = axios.create({
+    baseURL: baseUrl
+})
+
 export const findAllAgents = async () => {
     const allAgentsURL = 'http://localhost:3000/agents'
     const responseAllAgents = await axios.get(allAgentsURL)
@@ -10,3 +17,33 @@ export const findAllProperties = async () => {
     const responseAllProperty = await axios.get(allPropertyURL)
     return responseAllProperty
 }
+export const readAgentById = async (id) => {
+    let token = localStorage.getItem('token');
+    api.defaults.headers.common.authorization = `Bearer ${token}`
+    const resp = await api.get(`/agents/${id}`)
+    return resp.data
+}
+
+export const updateAgent = async (id, data) => {
+    let token = localStorage.getItem('token');
+    api.defaults.headers.common.authorization = `Bearer ${token}`
+    const resp = await api.put(`/agents/${id}`, { agent: data })
+    return resp.data
+}
+export const destroyAgent = async (id) => {
+    console.log()
+    let token = localStorage.getItem('token');
+    api.defaults.headers.common.authorization = `Bearer ${token}`
+    const resp = await api.delete(`/agents/${id}`)
+    return resp.data
+}
+
+export  const createAgent = async (data) => {
+    let token = localStorage.getItem('token');
+    api.defaults.headers.common.authorization = `Bearer ${token}`
+    console.log(data, 'data')
+    const resp = await api.post('/agents', { agent: data })
+    return resp.data
+  }
+
+console.log(createAgent)
