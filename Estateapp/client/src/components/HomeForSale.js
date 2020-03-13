@@ -5,9 +5,7 @@ import {Link} from 'react-router-dom'
 function HomeForSale(){
     return(
         <div className="homeForSale">
-            {/* <div className="homeForSalebackground"> */}
-                
-            {/* </div> */}
+            
             <div className="homeForSaleLink">
                 <h2>
                     EXCLUSIVE HOMES

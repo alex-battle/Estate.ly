@@ -1,5 +1,5 @@
 import React from 'react';
-import AllPropertyBanner from '../AllPropertyBanner';
+import AllPropertyBanner from './AllPropertyBanner';
 import AllPropertyTitle from './AllPropertyTitle'
 import AllPropertyList from './AllPropertyList';
 
