@@ -24,24 +24,25 @@ class UpdateAgent extends React.Component {
     }
 
 
-handleAgentUpdateChange = (e) => {
-    const { name, value } = e.target;
-    console.log(this.state)
-    this.setState(prevState => ({
-        agentForm: {
+    handleAgentUpdateChange = (e) => {
+        const { name, value } = e.target;
+        console.log(this.state)
+        this.setState(prevState => ({
+            agentForm: {
             ...prevState.agentForm,
             [name]: value
         }
     }))
 }
 
-mountEditForm = async (id) => {
-    const agent = await readAgentById(id);
-    this.setState({
+    mountEditForm = async (id) => {
+        const agent = await readAgentById(id);
+        this.setState({
         agentForm: agent
-    });
+        });
 }
-newAgent = async (e) => {
+    
+    newAgent = async (e) => {
     e.preventDefault();
     let {agentForm} = this.state;
     console.log(agentForm, 'adal')
@@ -54,6 +55,13 @@ newAgent = async (e) => {
         phoneNumber:"",
         website: ""
       }
+    }))
+  }
+
+  deleteAgent = async (id) => {
+    await destroyAgent(id);
+    this.setState(prevState => ({
+      agents: prevState.agents.filter(agent => agent.id !== id)
     }))
   }
 // mountDeleteForm = async (id) =>
@@ -89,16 +97,18 @@ render(){
                 </Form.Group>
 
                 <Button variant="light" type="submit">
-                    Submit
+                    Update
             </Button>
             <Button onClick={() => {
                   createAgent(this.state.agentForm);
-                  this.props.history.push('/staff')
+                  this.props.history.push('/')
                 }}>Create</Button>
-            {/* <Button onClick={() => {
-                  destroyAgent(2);
+
+            <Button onClick={() => {
+                  this.deleteAgent(id);
                   this.props.history.push('/staff')
-                }}>Delete</Button> */}
+                }}>Delete
+            </Button>
             </Form>
         </div>
     )

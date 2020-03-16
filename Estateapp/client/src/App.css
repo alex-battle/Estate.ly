@@ -404,6 +404,12 @@ h3 {
   display: flex;
   justify-content: flex-end;
 }
+.updateProperties{
+  width: 50rem;
+  height: 50rem;
+  display: flex;
+  justify-content: flex-end;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -17,6 +17,7 @@ import LogInForm from './LogInForm'
 import SignUp from './SignUp'
 import AdminPage from './AdminPage'
 import UpdateAgent from './UpdateAgent'
+import UpdateProperty from './UpdateProperty'
 
 function Main(props){
     return(
@@ -29,6 +30,7 @@ function Main(props){
             <Route exact path='/login'><LogInOrSignUp/></Route>
             <Route exact path='/admin'><AdminPage/></Route>
             <Route exact path='/admin/updateagent/:id' render={(props)=>(<UpdateAgent {...props}/>)}/>
+            <Route exact path='/admin/updateproperty/:id' render={(props)=>(<UpdateProperty {...props}/>)}/>
             <Route exact path='/signin'><LogInForm handleLogInChange={props.handleLogInChange} handleLogIn={props.handleLogIn}/></Route>
             <Route exact path='/signup'><SignUp/></Route>
             <Route exact path='/about'><AboutUs /></Route>
@@ -38,13 +40,10 @@ function Main(props){
             <Route exact path='/contact'><ContactUs /></Route>
             <Route exact path='/rent'><ForRent /></Route>
             <Route exact path='/rent/:name'><ForRentInfo /></Route>
-            {/* <Route exact path='/rent/list/'></Route> */}
             <Route exact path='/sale'><ForSale /></Route>
-            {/* <Route exact path='/sale/results'><ForSaleResults/></Route> */}
             <Route exact path='/sale/:name'></Route>
             <Route exact path='/search'><Search handleChange={props.handleChange} searchInput={props.searchInput}/></Route>
             <Route exact path='/search/:name'><SearchResultDetails/></Route>
-            {/* <Route exact path='/login'><Login /></Route> */}
             </div>
             <div className="footer">
             

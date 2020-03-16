@@ -1,18 +1,17 @@
 import React from 'react';
-import Create from './CreateProperty';
-import Update from './UpdateProperty';
-import Delete from './DeleteProperty'
+import {Link} from 'react-router-dom'
+import {Button} from 'react-bootstrap'
 
-function AdminPage(){
-    return(
+function AdminPage() {
+    return (
         <div>
-            <Create />
+            <Link to="/admin/updateagent/1">
+                <Button variant="dark" size="lg">Agent</Button>
+            </Link>
             <br></br>
-            <Update />
-            <br></br>
-            <Delete />
-            <br></br>
-
+            <Link to="/admin/updateproperty/:id">
+                <Button variant="dark" size="lg">Property</Button>
+            </Link>
         </div>
     )
 }

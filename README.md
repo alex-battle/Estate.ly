@@ -128,6 +128,7 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 	- Create route for a new property
 - PUT `/property/:id/update`
   	- Update a property by id 
+    
 
 <br>
 
@@ -142,19 +143,19 @@ https://whimsical.com/7A5QWSrEVfzYX7XRt8o4XK
 
 | Task                | Priority | Estimated Time | Actual Time |
 | ------------------- | :------: | :------------: | :---------: |
-| Add Header Links    |    M     |     2 hrs      |    -- hrs    |
-| Set links to routes |    H     |     2 hrs      |     -- hrs     |
-| Fill About Us/Contact Info with Dummy Data |    L     |     2 hrs      |     -- hrs     |
-| Get External API to render data |    H     |     3 hrs      |     -- hrs     |
-| Create form for House search calling from external Api |    H     |     3 hrs      |     -- hrs     |
-| Get House results data to render in a list |    H     |     3 hrs      |     -- hrs     |
-| Render specific house data from house results |    M     |     3 hrs      |     --hrs     |
-| Render data from local api for Rentals, Sales, and Staff |    H     |     6 hrs      |     --hrs     |
-| Render specific data from local api for Rentals, Sales, and Staff results |    M     |     3 hrs      |     --hrs     |
-| Styling |    H     |     18 hrs      |     -- hrs     |
-| Create CRUD Actions |    H     |     3 hrs      |     -- hrs     |
-| User Authentication | H | 5 hrs | --hrs |
-| TOTAL               |          |     53 hrs      |     -- hrs     |
+| Add Header Links    |    M     |     2 hrs      |    1 hrs    |
+| Set links to routes |    H     |     2 hrs      |     2 hrs     |
+| Fill About Us/Contact Info with Dummy Data |    L     |     2 hrs      |     2 hrs     |
+| Get External API to render data |    H     |     3 hrs      |     2 hrs     |
+| Create form for House search calling from external Api |    H     |     3 hrs      |     2 hrs     |
+| Get House results data to render in a list |    H     |     3 hrs      |     4 hrs     |
+| Render specific house data from house results |    M     |     3 hrs      |     3hrs     |
+| Render data from local api for Rentals, Sales, and Staff |    H     |     6 hrs      |     4 hrs     |
+| Render specific data from local api for Rentals, Sales, and Staff results |    M     |     3 hrs      |     6hrs     |
+| Styling |    H     |     18 hrs      |     20 hrs     |
+| Create CRUD Actions |    H     |     3 hrs      |     4 hrs     |
+| User Authentication | H | 5 hrs | 4 hrs |
+| TOTAL               |          |     53 hrs      |     56 hrs     |
 
 <br>
 
@@ -192,14 +193,15 @@ Maps pinned to house location <br>
 
 ## Project Change Log
 
-> This section should be expanded and revised as you work on your project.
+> Was not able to use the Zillow API. It does not allow the functionality that I wanted.  Limited use with that API, need to pay for one. I had minor changes to my design but no major changes from my original plan
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+> Nothing super special about this code.
 
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
+> Issues that I faced was mostly from the Forms authentication and CRUD Functionality on the Front-End Side.
+
 
 ***
